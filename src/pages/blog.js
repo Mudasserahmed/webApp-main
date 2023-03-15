@@ -66,7 +66,7 @@ export default function Home() {
             <Link
               rel="noopener noreferrer"
               href="/networking"
-              className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block transition duration-300 ease-in-out hover:scale-105"
+              className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black  sm:block transition duration-300 ease-in-out hover:scale-105"
             >
               <h1 className="object-cover w-full rounded h-50">
                 <span className="fa fa-globe fa-3x text-[#FF7825]"></span>
@@ -83,7 +83,7 @@ export default function Home() {
             <Link
               rel="noopener noreferrer"
               href="/other"
-              className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block transition duration-300 ease-in-out hover:scale-105"
+              className="w-full h-72 py-14 mx-auto group hover:no-underline focus:no-underline bg-black  sm:block transition duration-300 ease-in-out hover:scale-105"
             >
               <h1 className="object-cover w-full rounded h-50">
                 <span className="fa fa-list fa-3x text-[#FF7825]"></span>
@@ -178,7 +178,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black  sm:block"
             >
               <Image
                 alt="presentation"
@@ -201,7 +201,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black  sm:block"
             >
               <Image
                 alt="presentation"
@@ -225,7 +225,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black  sm:block"
             >
               <Image
                 alt="presentation"
@@ -248,7 +248,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black  sm:block"
             >
               <Image
                 alt="presentation"
@@ -271,7 +271,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black  sm:block"
             >
               <Image
                 alt="presentation"
@@ -294,7 +294,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black  sm:block"
             >
               <Image
                 alt="presentation"
@@ -317,7 +317,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black  sm:block"
             >
               <Image
                 alt="presentation"
@@ -340,7 +340,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black  sm:block"
             >
               <Image
                 alt="presentation"
@@ -363,7 +363,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black  sm:block"
             >
               <Image
                 alt="presentation"
@@ -386,7 +386,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black  sm:block"
             >
               <Image
                 alt="presentation"
@@ -409,7 +409,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black  sm:block"
             >
               <Image
                 alt="presentation"
@@ -432,7 +432,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black  sm:block"
             >
               <Image
                 alt="presentation"
