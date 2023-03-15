@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Script from "next/script";
+import Typewriter from "typewriter-effect";
 import Link from "next/link";
 import { useState } from "react";
 import Navbar from "@/components/navbar";
@@ -32,13 +33,26 @@ export default function Home() {
             alt="img"
             src="https://media.discordapp.net/attachments/807562739324157962/1081366667449348247/hero.png"
           ></Image>
-          <p id="typing" className="text-black md:text-3xl"></p>
+          <h2 id="typing" className="text-black md:text-3xl">
+            <Typewriter
+              options={{
+                strings: ["lets_Develop(Brains)"],
+                autoStart: true,
+                loop: true,
+                delay: 100,
+                deleteSpeed: 40,
+              }}
+            />
+          </h2>
           <span className="p-7 fa fa-angle-double-down fa-3x text-orange-600"></span>
         </div>
       </section>
 
       <section className="bg-gray-200  text-gray-100">
-        <div className="elementor-shape elementor-shape-top" data-negative="false">
+        <div
+          className="elementor-shape elementor-shape-top"
+          data-negative="false"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 700 10"
@@ -51,7 +65,15 @@ export default function Home() {
           </svg>{" "}
         </div>
         <h1 className="text-center text-[#FF7825] pt-16 pb-2 text-4xl font-bold">
-          ALL POSTS
+          <Typewriter
+            options={{
+              strings: ["All Posts"],
+              autoStart: true,
+              loop: true,
+              delay: 100,
+              deleteSpeed: 40,
+            }}
+          />
         </h1>
         <div className="container max-w-6xl p-4 mx-auto space-y-6 sm:space-y-12">
           <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -152,7 +174,10 @@ export default function Home() {
       </section>
 
       <section className="min-h-[506px] bg-gray-200">
-      <div className="elementor-shape elementor-shape-top" data-negative="false">
+        <div
+          className="elementor-shape elementor-shape-top"
+          data-negative="false"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 700 10"
@@ -165,7 +190,15 @@ export default function Home() {
           </svg>{" "}
         </div>
         <h1 className="text-center text-[#FF7825] pt-40 text-3xl font-bold">
-          TRENDING VIDEOS
+          <Typewriter
+            options={{
+              strings: ["TRENDING VIDEOS"],
+              autoStart: true,
+              loop: true,
+              delay: 100,
+              deleteSpeed: 40,
+            }}
+          />{" "}
         </h1>
         <div className="container grid lg:grid-cols-3 justify-items-center gap-10 p-4 mx-auto flex-wrap pt-10">
           <div class="max-w-sm rounded-lg shadow bg-black border-gray-700 hover:opacity-[0.8]">
@@ -205,98 +238,126 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-gray-200 text-gray-100 pb-20">
-      <div className="elementor-shape elementor-shape-top" data-negative="false">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 700 10"
-            preserveAspectRatio="none"
-          >
-            <path
-              className="elementor-shape-fill "
-              d="M350,10L340,0h20L350,10z"
-            ></path>
-          </svg>
-        </div>
-        <h1 className="text-center text-[#FF7825] pt-20 text-4xl font-bold">
-          GITHUB PROJECTS
+      <section className="bg-[#111] text-gray-100 pb-20">
+        <h1 className="text-center text-[#FF7825] pt-20 pb-10 text-4xl font-[700]">
+          <Typewriter
+            options={{
+              strings: ["GITHUB PROJECTS"],
+              autoStart: true,
+              loop: true,
+              delay: 100,
+              deleteSpeed: 40,
+            }}
+          />
         </h1>
-        <div className="container max-w-6xl p-8 mx-auto space-y-6 sm:space-y-12 text-center">
+        <div className="relative max-w-6xl p-8 mx-auto space-y-6 sm:space-y-12 text-center sm:pb-50">
           <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-1 lg:grid-cols-2">
-            <a
-              rel="noopener noreferrer"
+            <Link
               href="https://github.com/NeuralNine/youtube-downloader-converter"
-              className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
+              rel="noopener noreferrer"
+              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
             >
-              <h1 className="object-cover w-full rounded h-50">
-                <span className="fab fa-youtube fa-3x text-[#FF7825]"></span>
-              </h1>
-              <div className="p-6 space-y-2">
-                <h3 className="text-[#FF7825] text-[20px] font-semibold group-hover:underline group-focus:underline">
-                  YouTube Downloader & Converter
-                </h3>
-                <p className="text-[14px]">
-                  A Simple Python Script that is able to download YouTube Videos
-                  or Playlists and convert them into MP3 Format.
-                </p>
+              <div className="container">
+                <div className="overlay">
+                  <div class="text">
+                    <span class="fab fa-github fa-2x block p-2"></span>
+                    Visit Repository
+                  </div>
+                </div>
+                <h1 className="object-cover w-full rounded h-50">
+                  <span className="fab fa-youtube fa-3x text-[#FF7825]"></span>
+                </h1>
+                <div className="p-6 space-y-2">
+                  <h3 className="text-[#FF7825] text-2xl font-[600] group-hover:underline group-focus:underline">
+                    YouTube Video Downloader
+                  </h3>
+                  <p className="text-[16px] sm:max-h-14 py-4">
+                    A simple Python script that is able to download YouTube
+                    videos or playlists and convert them into MP3.
+                  </p>
+                </div>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               rel="noopener noreferrer"
               href="https://github.com/NeuralNine/handwritten-digits-recognition"
-              className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
+              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
             >
-              <h1 className="object-cover w-full rounded h-50">
-                <span className="fa fa-pencil fa-3x text-[#FF7825]"></span>
-              </h1>
-              <div className="p-6 space-y-2">
-                <h3 className="text-[#FF7825] text-[20px] font-semibold group-hover:underline group-focus:underline">
-                  Handwritten Digit Recognition
-                </h3>
-                <p className="text-[14px]">
-                  A Script that trains a model to recognize handwritten digits
-                  using the MNIST data set. Then it loads external files and
-                  uses the neural network to predict what digits they are.
-                </p>
+              <div className="container">
+                <div className="overlay">
+                  <div class="text">
+                    <span class="fab fa-github fa-2x block p-2"></span>
+                    Visit Repository
+                  </div>
+                </div>
+                <h1 className="object-cover w-full rounded h-50">
+                  <span className="fa fa-pencil fa-3x text-[#FF7825]"></span>
+                </h1>
+                <div className="p-6 space-y-2">
+                  <h3 className="text-[#FF7825] text-2xl font-[600] group-hover:underline group-focus:underline">
+                    Handwritten Digit Recognition
+                  </h3>
+                  <p className="text-[16px] sm:max-h-14 py-4">
+                    A script that trains a model to recognize handwritten digits
+                    using the MNIST data set. Then it loads external files and
+                    uses the neural network to predict what digits they are.
+                  </p>
+                </div>
               </div>
-            </a>
+            </Link>
 
-            <a
+            <Link
               rel="noopener noreferrer"
               href="https://github.com/NeuralNine/drawing-classifier"
-              className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block transition duration-300 ease-in-out hover:scale-105"
+              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
             >
-              <h1 className="object-cover w-full rounded h-50">
-                <span className="fa fa-paint-brush fa-3x text-[#FF7825]"></span>
-              </h1>
-              <div className="p-6 space-y-2">
-                <h3 className="text-[#FF7825] text-[20px] font-semibold group-hover:underline group-focus:underline">
-                  Drawing Classifier
-                </h3>
-                <p className="text-[14px]">
-                  A Python Application which uses machine learning
-                  classification algorithms to classify drawings of the user.
-                </p>
+              <div className="container">
+                <div className="overlay">
+                  <div class="text">
+                    <span class="fab fa-github fa-2x block p-2"></span>
+                    Visit Repository
+                  </div>
+                </div>
+                <h1 className="object-cover w-full rounded h-50">
+                  <span className="fa fa-paintbrush fa-3x text-[#FF7825]"></span>
+                </h1>
+                <div className="p-6 space-y-2">
+                  <h3 className="text-[#FF7825] text-2xl font-[600] group-hover:underline group-focus:underline">
+                    Drawing Classifier
+                  </h3>
+                  <p className="text-[16px] sm:max-h-14 py-4">
+                    A Python application which uses machine learning
+                    classification algorithms to classify drawings of the user.
+                  </p>
+                </div>
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               rel="noopener noreferrer"
               href="https://github.com/NeuralNine/stock-visualizer"
-              className="w-full h-72 py-16 mx-auto group hover:no-underline focus:no-underline bg-black hidden sm:block transition duration-300 ease-in-out hover:scale-105"
+              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
             >
-              <h1 className="object-cover w-full rounded h-50">
-                <span className="fa fa-chart-line fa-3x text-[#FF7825]"></span>
-              </h1>
-              <div className="p-6 space-y-2">
-                <h3 className="text-[#FF7825] text-[20px] font-semibold group-hover:underline group-focus:underline">
-                  Stock Visualizer.
-                </h3>
-                <p className="text-[14px]">
-                  A Python Application that visualizes stock data using
-                  professional candlestick charts.
-                </p>
+              <div className="container">
+                <div className="overlay">
+                  <div class="text">
+                    <span class="fab fa-github fa-2x block p-2"></span>
+                    Visit Repository
+                  </div>
+                </div>
+                <h1 className="object-cover w-full rounded h-50">
+                  <span className="fa fa-chart-line fa-3x text-[#FF7825]"></span>
+                </h1>
+                <div className="p-6 space-y-2">
+                  <h3 className="text-[#FF7825] text-2xl font-[600] group-hover:underline group-focus:underline">
+                    Stock Visualizer
+                  </h3>
+                  <p className="text-[16px] sm:max-h-14 py-4">
+                    A Python application that visualizes stock data using
+                    professional candlestick charts.
+                  </p>
+                </div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
