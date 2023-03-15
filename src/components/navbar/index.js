@@ -5,7 +5,7 @@ import React, { useState } from "react";
 function Navbar(props) {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="bg-black pb-4 pt-3 sticky top-0">
+    <nav className="bg-black pb-4 pt-3 sticky top-0 z-10">
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-start ">

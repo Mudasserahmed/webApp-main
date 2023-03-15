@@ -22,7 +22,7 @@ export default function Home() {
         />
       </Head>
       <Navbar/>
-      <section className="bg-[#0e0e0e] text-gray-100">
+      <section className="bg-gray-200 text-gray-100">
         <h1 className="text-center text-[#FF7825] pt-20 pb-10 text-4xl font-[700]">
           WHAT ARE YOU INTERESTED IN?
         </h1>
@@ -100,7 +100,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-[#0e0e0e] text-gray-100">
+      <section className="bg-gray-200 text-gray-100">
         <h1 className="text-center text-[#FF7825] pt-16 pb-2 text-4xl font-bold">
           ALL POSTS
         </h1>

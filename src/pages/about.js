@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
 
        <Navbar/>
-      <section className="bg-black text-gray-100">
+      <section className="bg-gray-200 text-black">
         <div className="container flex flex-col mx-auto lg:flex-row min-h-[400px]">
           <div className="w-1/2 lg:w-1/3 mx-auto">
             <Image

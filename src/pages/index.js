@@ -24,7 +24,7 @@ export default function Home() {
       <Script src="/sc.js" strategy="lazyOnload"></Script>
       <Navbar />
       <section>
-        <div className="flex flex-col justify-center items-center text-white bg-black min-h-[100vh]">
+        <div className="flex flex-col justify-center items-center text-white bg-gray-50 min-h-[100vh]">
           <Image
             className="sm:w-[37%] w-full"
             width={1024}
@@ -32,12 +32,24 @@ export default function Home() {
             alt="img"
             src="https://media.discordapp.net/attachments/807562739324157962/1081366667449348247/hero.png"
           ></Image>
-          <p id="typing" className="text-white md:text-3xl"></p>
+          <p id="typing" className="text-black md:text-3xl"></p>
           <span className="p-7 fa fa-angle-double-down fa-3x text-orange-600"></span>
         </div>
       </section>
 
-      <section className="bg-grey-100 text-gray-100">
+      <section className="bg-gray-200  text-gray-100">
+        <div className="elementor-shape elementor-shape-top" data-negative="false">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 700 10"
+            preserveAspectRatio="none"
+          >
+            <path
+              className="elementor-shape-fill "
+              d="M350,10L340,0h20L350,10z"
+            ></path>
+          </svg>{" "}
+        </div>
         <h1 className="text-center text-[#FF7825] pt-16 pb-2 text-4xl font-bold">
           ALL POSTS
         </h1>
@@ -139,7 +151,19 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="min-h-[506px] bg-grey-100">
+      <section className="min-h-[506px] bg-gray-200">
+      <div className="elementor-shape elementor-shape-top" data-negative="false">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 700 10"
+            preserveAspectRatio="none"
+          >
+            <path
+              className="elementor-shape-fill "
+              d="M350,10L340,0h20L350,10z"
+            ></path>
+          </svg>{" "}
+        </div>
         <h1 className="text-center text-[#FF7825] pt-40 text-3xl font-bold">
           TRENDING VIDEOS
         </h1>
@@ -181,7 +205,19 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-grey-100 text-gray-100 pb-20">
+      <section className="bg-gray-200 text-gray-100 pb-20">
+      <div className="elementor-shape elementor-shape-top" data-negative="false">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 700 10"
+            preserveAspectRatio="none"
+          >
+            <path
+              className="elementor-shape-fill "
+              d="M350,10L340,0h20L350,10z"
+            ></path>
+          </svg>
+        </div>
         <h1 className="text-center text-[#FF7825] pt-20 text-4xl font-bold">
           GITHUB PROJECTS
         </h1>
@@ -264,7 +300,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+
       <Footer />
     </>
   );
