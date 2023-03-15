@@ -33,7 +33,7 @@ export default function Home() {
             alt="img"
             src="https://media.discordapp.net/attachments/807562739324157962/1081366667449348247/hero.png"
           ></Image>
-          <h2 id="typing" className="text-black md:text-3xl">
+          <h1 id="typing" className="text-black md:text-3xl">
             <Typewriter
               options={{
                 strings: ["lets_Develop(Brains)"],
@@ -43,7 +43,7 @@ export default function Home() {
                 deleteSpeed: 40,
               }}
             />
-          </h2>
+          </h1>
           <span className="p-7 fa fa-angle-double-down fa-3x text-orange-600"></span>
         </div>
       </section>
@@ -238,7 +238,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[#111] text-gray-100 pb-20">
+      <section className="bg-gray-200 text-gray-100 pb-20">
         <h1 className="text-center text-[#FF7825] pt-20 pb-10 text-4xl font-[700]">
           <Typewriter
             options={{
