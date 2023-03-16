@@ -22,7 +22,7 @@ export default function Home() {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         />
       </Head>
-      <Script src="/sc.js" strategy="lazyOnload"></Script>
+      {/* <Script src="/sc.js" strategy="lazyOnload"></Script> */}
       <Navbar />
       <section>
         <div className="flex flex-col justify-center items-center text-white bg-gray-50 min-h-[100vh]">
@@ -80,7 +80,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="/mathematical-skills-needed-for-machine-learning"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-[#25180E]"
             >
               <Image
                 alt="presentation"
@@ -103,7 +103,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-[#25180E]"
             >
               <Image
                 alt="presentation"
@@ -126,7 +126,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-[#25180E]"
             >
               <Image
                 alt="presentation"
@@ -149,7 +149,7 @@ export default function Home() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-black"
+              className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-[#25180E]"
             >
               <Image
                 alt="presentation"
@@ -201,7 +201,7 @@ export default function Home() {
           />{" "}
         </h1>
         <div className="container grid lg:grid-cols-3 justify-items-center gap-10 p-4 mx-auto flex-wrap pt-10">
-          <div class="max-w-sm rounded-lg shadow bg-black border-gray-700 hover:opacity-[0.8]">
+          <div class="max-w-sm rounded-lg shadow bg-[#25180E] border-gray-700 hover:opacity-[0.8]">
             <a href="https://www.youtube.com/watch?v=Qkd6effeDVU">
               <Image
                 className="transition duration-300 ease-in-out hover:scale-110"
@@ -213,7 +213,7 @@ export default function Home() {
             </a>
           </div>
 
-          <div class="max-w-sm rounded-lg shadow bg-black border-gray-700 hover:opacity-[0.8]">
+          <div class="max-w-sm rounded-lg shadow bg-[#25180E] border-gray-700 hover:opacity-[0.8]">
             <a href="https://www.youtube.com/watch?v=Bi1-rsEkoYc">
               <Image
                 className="transition duration-300 ease-in-out hover:scale-110"
@@ -224,7 +224,7 @@ export default function Home() {
               ></Image>
             </a>
           </div>
-          <div class="max-w-sm rounded-lg shadow bg-black border-gray-700  hover:opacity-[0.8]">
+          <div class="max-w-sm rounded-lg shadow bg-[#25180E] border-gray-700  hover:opacity-[0.8]">
             <a href="https://www.youtube.com/watch?v=QM5XDc4NQJo">
               <Image
                 className="transition duration-300 ease-in-out hover:scale-110"
@@ -255,7 +255,7 @@ export default function Home() {
             <Link
               href="https://github.com/NeuralNine/youtube-downloader-converter"
               rel="noopener noreferrer"
-              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
+              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-[#25180E] transition duration-300 ease-in-out hover:scale-105"
             >
               <div className="container">
                 <div className="overlay">
@@ -281,7 +281,7 @@ export default function Home() {
             <Link
               rel="noopener noreferrer"
               href="https://github.com/NeuralNine/handwritten-digits-recognition"
-              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
+              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-[#25180E] transition duration-300 ease-in-out hover:scale-105"
             >
               <div className="container">
                 <div className="overlay">
@@ -309,7 +309,7 @@ export default function Home() {
             <Link
               rel="noopener noreferrer"
               href="https://github.com/NeuralNine/drawing-classifier"
-              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
+              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-[#25180E] transition duration-300 ease-in-out hover:scale-105"
             >
               <div className="container">
                 <div className="overlay">
@@ -335,7 +335,7 @@ export default function Home() {
             <Link
               rel="noopener noreferrer"
               href="https://github.com/NeuralNine/stock-visualizer"
-              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-black transition duration-300 ease-in-out hover:scale-105"
+              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-[#25180E] transition duration-300 ease-in-out hover:scale-105"
             >
               <div className="container">
                 <div className="overlay">
