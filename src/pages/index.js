@@ -255,7 +255,7 @@ export default function Home() {
             <Link
               href="https://github.com/NeuralNine/youtube-downloader-converter"
               rel="noopener noreferrer"
-              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-[#25180E] transition duration-300 ease-in-out hover:scale-105"
+              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-[#25180E] transition duration-300 ease-in-out "
             >
               <div className="container">
                 <div className="overlay">
@@ -281,7 +281,7 @@ export default function Home() {
             <Link
               rel="noopener noreferrer"
               href="https://github.com/NeuralNine/handwritten-digits-recognition"
-              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-[#25180E] transition duration-300 ease-in-out hover:scale-105"
+              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-[#25180E] transition duration-300 ease-in-out "
             >
               <div className="container">
                 <div className="overlay">
@@ -309,7 +309,7 @@ export default function Home() {
             <Link
               rel="noopener noreferrer"
               href="https://github.com/NeuralNine/drawing-classifier"
-              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-[#25180E] transition duration-300 ease-in-out hover:scale-105"
+              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-[#25180E] transition duration-300 ease-in-out "
             >
               <div className="container">
                 <div className="overlay">
@@ -335,7 +335,7 @@ export default function Home() {
             <Link
               rel="noopener noreferrer"
               href="https://github.com/NeuralNine/stock-visualizer"
-              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-[#25180E] transition duration-300 ease-in-out hover:scale-105"
+              className="w-full  py-14 mx-auto group hover:no-underline focus:no-underline bg-[#25180E] transition duration-300 ease-in-out "
             >
               <div className="container">
                 <div className="overlay">

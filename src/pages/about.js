@@ -58,34 +58,34 @@ export default function Home() {
             <h2 className="text-3xl text-center font-semibold leading-none mb-8">
               Connect With NeuralNine!!
             </h2>
-            <nav class="list-none mb-10 gap-2">
+            <nav className="list-none bg-[#25180E] p-2 rounded-lg mb-10 gap-2 ">
               <li>
-                <a class="text-white hover:text-[#FF7825]">
+                <a class="text-white hover:text-[#FF7825] cursor-pointer">
                   <span class="fab fa-instagram fa-3x"></span>
                 </a>
               </li>
               <li>
-                <a class="text-white hover:text-[#FF7825]">
+                <a class="text-white hover:text-[#FF7825] cursor-pointer">
                   <span class="fab fa-youtube fa-3x"></span>
                 </a>
               </li>
               <li>
-                <a class="text-white hover:text-[#FF7825]">
+                <a class="text-white hover:text-[#FF7825] cursor-pointer">
                   <span class="fab fa-twitter fa-3x"></span>
                 </a>
               </li>
               <li>
-                <a class="text-white hover:text-[#FF7825]">
+                <a class="text-white hover:text-[#FF7825] cursor-pointer">
                   <span class="fab fa-linkedin fa-3x"></span>
                 </a>
               </li>
               <li>
-                <a class="text-white hover:text-[#FF7825]">
+                <a class="text-white hover:text-[#FF7825] cursor-pointer">
                   <span class="fab fa-github fa-3x"></span>
                 </a>
               </li>
               <li>
-                <a class="text-white hover:text-[#FF7825]">
+                <a class="text-white hover:text-[#FF7825] cursor-pointer">
                   <span class="fa fa-envelope fa-3x"></span>
                 </a>
               </li>
@@ -93,7 +93,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <Footer/>
     </>
   );
